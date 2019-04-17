@@ -1,18 +1,10 @@
-# imdb
+# imdb 影评情感分类
 
-## 第一部分
+主要使用 Keras 实现了以下几个模型：
 
-- text_classification.py
-
-![](1.png)
-![](2.png)
-
-
-## 第二部分
-
-- imdb_lstm.ipynb: 单层双向循环 LSTM
-- imdb_lstm_more_steps.ipynb: 每篇文章保留更多的词
-- imdb_lstm_add_layers.ipynb: 双层双向循环 LSTM
-- imdb_conv.ipynb: 一维卷积
-- imdb_conv_lstm.ipynb: 一维卷积 + 双向循环 LSTM
-
+- 单层单向 LSTM；
+- 单层双向 LSTM；
+- 多层双向 LSTM；
+- 一维卷积版本1；
+- 一维卷积版本2；
+- 一维卷积结合单层双向 LSTM；
